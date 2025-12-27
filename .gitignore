@@ -10,3 +10,8 @@ __pycache__/
 *.pyo
 *.pyd
 *.log
+
+# Ignorar arquivos de dados grandes
+data/*.csv
+data/*.xlsx
+data/*.xls
