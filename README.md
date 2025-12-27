@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-Explicação do projeto de Analise de dados sobre doenças
-=======
+
 Explicação do projeto de Analise de dados sobre doenças
 
 ## Dados
@@ -29,16 +27,16 @@ Para executar o projeto, você precisa:
 
 3. **Converta o arquivo Python para Notebook**
    ```bash
-   jupytext --to notebook notebooks/analise.py
+   jupytext --to notebook code/analise.py
    ```
    
-   Isso criará o arquivo `notebooks/analise.ipynb`
+   Isso criará o arquivo `code/analise.ipynb`
 
 4. **Sincronização automática (opcional)**
    
    Para manter o .py e .ipynb sincronizados automaticamente:
    ```bash
-   jupytext --set-formats ipynb,py notebooks/analise.ipynb
+   jupytext --set-formats ipynb,py code/analise.ipynb
    ```
    
    Agora qualquer alteração em um arquivo será refletida no outro!
@@ -60,6 +58,5 @@ Para executar o projeto, você precisa:
    ```
 
 3. Execute o notebook ou o script Python:
-   - **Notebook**: Abra `notebooks/analise.ipynb` no VS Code
-   - **Script**: `python notebooks/analise.py`
->>>>>>> 664c066 (add graphyc analysis)
+   - **Notebook**: Abra `code/analise.ipynb` no VS Code
+   - **Script**: `python code/analise.py`
