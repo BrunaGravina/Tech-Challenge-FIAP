@@ -8,8 +8,9 @@ O projeto utiliza o arquivo `DENGBR25.csv` que contém dados de notificações d
 **Importante**: O arquivo de dados não está versionado no Git devido ao seu tamanho (430 MB).
 
 Para executar o projeto, você precisa:
-1. Baixar o arquivo de dados da fonte oficial
-2. Colocar o arquivo na pasta `data/` com o nome `DENGBR25.csv`
+1. Acessar a fonte oficial: https://dadosabertos.saude.gov.br/dataset/arboviroses-dengue
+2. Baixar o arquivo de dados de 2025: https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SINAN/Dengue/csv/DENGBR25.csv.zip
+3. Colocar o arquivo na pasta `data/` com o nome `DENGBR25.csv`
 
 ## Configuração do Ambiente
 
